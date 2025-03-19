@@ -41,15 +41,16 @@ However, the final shortlisted models that we chose to present during our presen
 - AdaBoost
 
 In addition, as part of *future works*, we explored an alternative *binary classification (Win/Never Win)* problem to confirm our findings from our main models, therefore, you should view this model **only at the end**:
-- Logisitic Regression (Binary)
+- Logistic Regression (Binary)
 
 ## Things to Note
 - Each file contains a standard template for ease of navigation and also consistency between the models when it comes to Data Preparation, Cleaning and Feature Engineering.
 - Thus, each file would have identical content from `Section 1 (Introduction)` to `Section 5 (Data and Feature Engineering)`, the main difference for each file would begin from `Section 6 (Model Building)`
 - Recommendation is to view Section 1 to Section 5 once and you may skip those sections for the rest of the files.
+- For ALL baseline models, we used the same set of features and we selected the features based on domain knowledge as we wanted to see the full effect of *optimised feature selection* when building our models
 - Recommended to view `Logistic Regression - Binary` as the last model as it is related to our future works 
 
-## Datasets: 
+## Datasets
 1. Match data dataset from the Premier League (2017-2024)
 2. FIFA Team Rating Dataset sourced from the FIFA video game series 
 
