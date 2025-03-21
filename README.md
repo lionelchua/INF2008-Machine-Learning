@@ -11,13 +11,71 @@ Group Members:
 6. TOH ZHEN WEI (2303006)
 
 ## Table of Contents
-- [Problem Statement](##Problem-Statement)
+
+- [Installation Guide](##Installation-Guide)
+- [Project Problem Statement](##Project-Problem-Statement)
 - [Project Overview](#Project-Overview)
 - [Things to Note](#Things-to-Note)
 - [Datasets](#Datasets)
 
+## Installation Guide
 
-## Problem Statement:   
+Follow these steps to set up the environment for running the project:
+
+1. Clone the Repository
+Start by cloning the repository to your local machine:
+```sh
+git clone https://github.com/lionelchua/INF2008-Machine-Learning
+```
+2. Navigate to the Project Directory
+```sh
+cd <project-directory>
+```
+3. Create a Virtual Environment according to OS
+- For Mac Users:  
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+- For Windows Users:
+```sh
+python -m venv venv
+.\venv\Scripts\activate
+```
+4.  Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+## TPOT Installation Guide
+The installation process requires specific package versions due to compatibility issues.
+Necessary steps include:
+- Uninstalling and reinstalling Scikit-learn (<1.3.0)
+- Ensuring dependencies (NumPy, SciPy, Pandas, Joblib) are up to date.
+- Restarting the session for proper package integration.
+
+Installation Commands:
+```sh
+# Uninstall conflicting versions of TPOT and scikit-learn
+pip uninstall -y tpot scikit-learn
+
+# Install TPOT with a compatible version of scikit-learn
+pip install tpot "scikit-learn<1.3.0"
+
+# Ensure necessary dependencies are installed and updated
+pip install -U numpy scipy pandas joblib tqdm stopit update_checker
+
+# Uninstall and reinstall specific versions to maintain compatibility
+pip uninstall -y scipy numpy scikit-learn tpot
+pip install numpy==1.23.5 scipy==1.10.1 scikit-learn==1.2.2 tpot
+```
+Verify Installation:
+```sh
+from tpot import TPOTClassifier
+print("TPOT is successfully installed!")
+```
+
+## Project Problem Statement:   
 Accurately predicting football match outcomes has long been a challenge for analysts, bettors, and sports fans. Traditional prediction models rely on expert opinions, statistical trends, and historical performance, but these methods often fail to capture the complexity and dynamic nature of the game.  
 
 This project aims to **explore the various machine learning models that predict football match outcomes** based on historical match data, team statistics, and other relevant factors.  
