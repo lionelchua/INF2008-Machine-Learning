@@ -13,7 +13,7 @@ Group Members:
 ## Table of Contents
 
 - [Installation Guide](##Installation-Guide)
-- [Project Problem Statement](##Project-Problem-Statement)
+- [Project Problem Statement](##project-problem-statement)
 - [Project Overview](#Project-Overview)
 - [Things to Note](#Things-to-Note)
 - [Datasets](#Datasets)
