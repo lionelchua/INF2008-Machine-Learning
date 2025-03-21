@@ -109,8 +109,10 @@ In addition, as part of *future works*, we explored an alternative *binary class
 - Recommended to view `Logistic Regression - Binary` as the last model as it is related to our future works 
 
 ## Datasets
-1. Match data dataset from the Premier League (2017-2024)
-2. FIFA Team Rating Dataset sourced from the FIFA video game series 
+1. Match data dataset from the Premier League (2017-2024) `2017-2024 match data.csv`
+2. FIFA Team Rating Dataset sourced from the FIFA video game series `fifa_team_rating.csv`
+
+We manually created 2 scripts (`FIFA Data Scraping.ipynb` and `Project Data Scraping Script.ipynb`) to scrape data from website to be used in our project.
 
 URL Links to Data Sources:  
 1. https://fbref.com/en/comps/9/Premier-League-Stats
