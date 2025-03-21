@@ -13,7 +13,7 @@ Group Members:
 ## Table of Contents
 
 - [Installation Guide](##Installation-Guide)
-- [Project Problem Statement](##project-problem-statement)
+- [Project Problem Statement](##Problem-Statement)
 - [Project Overview](#Project-Overview)
 - [Things to Note](#Things-to-Note)
 - [Datasets](#Datasets)
@@ -75,7 +75,7 @@ from tpot import TPOTClassifier
 print("TPOT is successfully installed!")
 ```
 
-## Project Problem Statement    
+## Problem Statement    
 Accurately predicting football match outcomes has long been a challenge for analysts, bettors, and sports fans. Traditional prediction models rely on expert opinions, statistical trends, and historical performance, but these methods often fail to capture the complexity and dynamic nature of the game.  
 
 This project aims to **explore the various machine learning models that predict football match outcomes** based on historical match data, team statistics, and other relevant factors.  
